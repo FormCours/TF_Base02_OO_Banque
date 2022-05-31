@@ -1,0 +1,8 @@
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\bin\Debug\ExoBanque.exe.config
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\bin\Debug\ExoBanque.exe
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\bin\Debug\ExoBanque.pdb
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\obj\Debug\ExoBanque.csproj.AssemblyReference.cache
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\obj\Debug\ExoBanque.csproj.SuggestedBindingRedirects.cache
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\obj\Debug\ExoBanque.csproj.CoreCompileInputs.cache
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\obj\Debug\ExoBanque.exe
+C:\Users\akimts\source\repos\DemoOO_base2\ExoBanque\obj\Debug\ExoBanque.pdb

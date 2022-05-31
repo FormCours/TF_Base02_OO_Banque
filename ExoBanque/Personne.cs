@@ -8,11 +8,17 @@ namespace ExoBanque
 {
     internal class Personne
     {
-        public String FirstName { get; set; }
-        public String LastName { get; set; }
-        public DateTime BirthDate { get; set; }
 
-        
+        public string Prenom { get; set; }
+        public string Nom { get; set; }
+        public DateTime DateNaiss { get; set; }
+
+        public Personne(string prenom, string nom, DateTime dateNaiss)
+        {
+            Prenom = prenom;
+            Nom = nom;
+            DateNaiss = dateNaiss;
+        }
 
     }
 }
