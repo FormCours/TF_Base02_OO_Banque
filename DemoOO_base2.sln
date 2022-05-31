@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOO_base2", "DemoOO_base2\DemoOO_base2.csproj", "{B0CE782A-C948-4E2C-A734-B6C29319E44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoBanque", "ExoBanque\ExoBanque.csproj", "{F009AA72-31DB-417B-8E0E-BEC117451248}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0CE782A-C948-4E2C-A734-B6C29319E44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CE782A-C948-4E2C-A734-B6C29319E44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CE782A-C948-4E2C-A734-B6C29319E44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CE782A-C948-4E2C-A734-B6C29319E44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F009AA72-31DB-417B-8E0E-BEC117451248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F009AA72-31DB-417B-8E0E-BEC117451248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F009AA72-31DB-417B-8E0E-BEC117451248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F009AA72-31DB-417B-8E0E-BEC117451248}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC65C0AF-5FBB-4650-B3DD-0F28489F6198}
+	EndGlobalSection
+EndGlobal

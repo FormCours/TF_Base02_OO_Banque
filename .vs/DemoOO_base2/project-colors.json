@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b0ce782a-c948-4e2c-a734-b6c29319e44d": {
+      "ProjectGuid": "b0ce782a-c948-4e2c-a734-b6c29319e44d",
+      "DisplayName": "DemoOO_base2",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    },
+    "f009aa72-31db-417b-8e0e-bec117451248": {
+      "ProjectGuid": "f009aa72-31db-417b-8e0e-bec117451248",
+      "DisplayName": "ExoBanque",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
