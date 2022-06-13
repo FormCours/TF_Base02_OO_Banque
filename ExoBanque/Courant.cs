@@ -8,12 +8,16 @@ namespace ExoBanque
 {
     internal class Courant
     {
+        #region Champs
+        private decimal _LigneDeCredit;
+        #endregion
 
+        #region Propriétés
         public string Numero { get; set; }
-        public Decimal Solde { get; private set; }
-        private Decimal _LigneDeCredit;
+        public decimal Solde { get; private set; }
+        public Personne Titulaire { get; set; }
 
-        public Decimal LigneDeCredit
+        public decimal LigneDeCredit
         {
             get { return _LigneDeCredit; }
             set {
@@ -23,34 +27,36 @@ namespace ExoBanque
                 }
             }
         }
+        #endregion
 
-        public Personne Titulaire { get; set; }
-
+        #region Constructeurs
         public Courant(string numero, Personne titulaire)
         {
-            Numero = numero;
+            Numero = numero.ToUpper();
             Titulaire = titulaire;
+            LigneDeCredit = 0;
         }
 
-        public Courant(string numero, Personne titulaire, Decimal ligneDeCredit)
+        public Courant(string numero, Personne titulaire, decimal ligneDeCredit)
+            : this(numero, titulaire)
         {
-            Numero = numero;
-            Titulaire = titulaire;
             LigneDeCredit = ligneDeCredit;
         }
+        #endregion
 
-
-        public void Retrait(Decimal montant)
+        #region Méthodes
+        public void Retrait(decimal montant)
         {
             if( montant > 0 && montant <= Solde + LigneDeCredit )
                 Solde -= montant;
         }
 
-        public void Depot(Decimal montant)
+        public void Depot(decimal montant)
         {
             if (montant > 0)
                 Solde += montant;
         }
+        #endregion
 
 
 
