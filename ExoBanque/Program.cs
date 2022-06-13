@@ -31,6 +31,8 @@ namespace ExoBanque
             Console.WriteLine($"Retrait de 200 : {c.Numero} - Solde: {c.Solde} (Refusé)");
 
 
+            Banque b = new Banque("Piscou & co");
+            b.Ajouter(c);
         }
     }
 }
