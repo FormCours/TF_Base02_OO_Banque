@@ -36,7 +36,6 @@ namespace ExoBanque
                 // Le compte existe deja :o
                 return; // -> A remplacer par une erreur
             }
-
             _Comptes.Add(numero, compte);
         }
     }
