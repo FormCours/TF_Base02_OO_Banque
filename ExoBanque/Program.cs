@@ -27,12 +27,14 @@ namespace ExoBanque
             Console.WriteLine($"Depot de 100 : {c.Numero} - Solde: {c.Solde}");
             
             // - Retrait de 200€. Refusé => Ligne de credit !
+            c.Retrait(-200);
             c.Retrait(200);
             Console.WriteLine($"Retrait de 200 : {c.Numero} - Solde: {c.Solde} (Refusé)");
 
-
             Banque b = new Banque("Piscou & co");
             b.Ajouter(c);
+
+            Console.ReadLine();
         }
     }
 }

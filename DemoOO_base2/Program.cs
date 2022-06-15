@@ -31,7 +31,7 @@ namespace DemoOO
             double promotion = v.Prix2 * (80 / 100);
             v.Prix2 = promotion;
 
-            v.KmParcouru = 50;
+            //v.KmParcouru = 50;
         }
     }
 

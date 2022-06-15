@@ -13,3 +13,11 @@ C:\Users\Forma1200\source\repos\DemoOO_Base2\ExoBanque\obj\Debug\ExoBanque.cspro
 C:\Users\Forma1200\source\repos\DemoOO_Base2\ExoBanque\obj\Debug\ExoBanque.csproj.CoreCompileInputs.cache
 C:\Users\Forma1200\source\repos\DemoOO_Base2\ExoBanque\obj\Debug\ExoBanque.exe
 C:\Users\Forma1200\source\repos\DemoOO_Base2\ExoBanque\obj\Debug\ExoBanque.pdb
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\bin\Debug\ExoBanque.exe.config
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\bin\Debug\ExoBanque.exe
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\bin\Debug\ExoBanque.pdb
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\obj\Debug\ExoBanque.csproj.AssemblyReference.cache
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\obj\Debug\ExoBanque.csproj.SuggestedBindingRedirects.cache
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\obj\Debug\ExoBanque.csproj.CoreCompileInputs.cache
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\obj\Debug\ExoBanque.exe
+C:\Users\Briar\source\repos\TF_Base02_OO_Banque\ExoBanque\obj\Debug\ExoBanque.pdb

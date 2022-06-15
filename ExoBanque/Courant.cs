@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExoBanque
 {
-    internal class Courant
+    internal class Courant : Compte
     {
         #region Champs
         private decimal _LigneDeCredit;
         #endregion
 
         #region Propriétés
-        public string Numero { get; set; }
-        public decimal Solde { get; private set; }
-        public Personne Titulaire { get; set; }
-
         public decimal LigneDeCredit
         {
             get { return _LigneDeCredit; }
@@ -45,20 +41,10 @@ namespace ExoBanque
         #endregion
 
         #region Méthodes
-        public void Retrait(decimal montant)
+        public override void Retrait(decimal montant)
         {
-            if( montant > 0 && montant <= Solde + LigneDeCredit )
-                Solde -= montant;
-        }
-
-        public void Depot(decimal montant)
-        {
-            if (montant > 0)
-                Solde += montant;
+            Retrait(montant, LigneDeCredit);
         }
         #endregion
-
-
-
     }
 }
